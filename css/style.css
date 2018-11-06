@@ -277,6 +277,8 @@ a.goto-btn { margin-right: 30px ; border: #fff 1px solid; padding: 12px 18px; co
     color: #ffffff;
     text-align: center;
 }
+
+
 #intro img.intro-logo {
     margin: 0 auto;
     margin-bottom: 30px;
@@ -812,6 +814,30 @@ ul.cat li a.active {
     height: 90px;
     transition: background-color 0.5s;
 }
+
+#academics {
+    
+    background-color: #828282;
+    padding: 3% 0;
+    color: #ffffff;
+    text-align: left;
+}
+
+#academics h2 {
+    color:#fff;
+    font-size:36px;
+    line-height:12px;
+    font-weight:100;
+    margin-bottom:4px;
+    position:relative;
+
+}
+
+#academics h4 {
+    color:#fff;
+    border-left: 15px
+}
+
 #experience .gray-bg { position: relative }
 .gray-bg .vline {
     position: absolute;
