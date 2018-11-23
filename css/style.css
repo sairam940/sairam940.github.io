@@ -683,7 +683,7 @@ ul.cat li a.active {
 }
 /* Style 2 - Not Fullwidth */
 #itemsWorkThree .box,
-#itemsWorkTwo .box { margin-bottom: 30px }
+#itemsWorkTwo .box { margin-bottom: 10px }
 #itemsWorkTwo .hover-bg .hover-text { padding: 30% 0 }
 #itemsWorkTwo .box:hover .hover-bg .hover-text {
     background-color: rgba(255, 223, 125, 0.70);
@@ -740,6 +740,7 @@ ul.cat li a.active {
     margin-right: -1px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+    height: auto;
 }
 .isotope {
     -webkit-transition-property: height, width;
@@ -940,7 +941,7 @@ ul.cat li a.active {
 #blog,
 #blog-post { padding: 60px 0 }
 #blog-post a.btn { margin: auto 0 }
-.post-wrap { position: relative }
+.post-wrap { position: relative height:auto;}
 .media.post {
     background: #fff;
     padding: 10px;
@@ -1063,6 +1064,7 @@ ul.social li a i:hover { border-color: #ffffff }
     border-bottom-color: transparent;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    height: auto;
 }
 .blog .post-meta {
     border-top: 1px solid #ebebeb;
