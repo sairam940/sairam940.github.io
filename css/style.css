@@ -505,6 +505,22 @@ ul.social li a.fa:hover { background-color: #333333 }
 #isotope-gallery {height: auto;}
 .isotope-blog {max-width: 500px; margin: auto; }
 
+/* My Resume*/
+.resume-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #0056b3;
+}
+
 /* Style 2 - Not Fullwidth */
 
 /* experience Section */
