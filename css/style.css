@@ -290,6 +290,18 @@ a.goto-btn { margin-right: 30px ; border: #fff 1px solid; padding: 12px 18px; co
 }
 .section-header h2 { text-transform: uppercase ; color: #000; font-family: inherit;}
 .section-header h5 { letter-spacing: 1px ; color: #ADADAD;}
+
+/* About section: make subtitle and list items normal weight (not bold) */
+.about-text h3 {
+    font-weight: normal; /* remove default bold heading */
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+}
+.about-text ul li {
+    font-weight: normal; /* make bullets regular weight */
+}
+
 .fancy {
     line-height: 0.5;
     text-align: center;
